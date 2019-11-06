@@ -1,0 +1,233 @@
+<header class="header">
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+
+    </nav>
+  </div>
+</header>
+<section class="twitterdetails p-30"> 
+<div class="container">
+  <h1>Dashboard</h1>
+      <div class="row">
+      <div class="col-md-3">
+              <div class="card mb-3 color-C70318 bg-white">
+                      <div class="custom-col">
+                            <div class="heading">
+                                  <p>{{girdDataObj.Seconds}}</p>
+                                   <h6>Seconds</h6>
+                                   
+                                </div>
+
+                                <div class="sub-heading ml-auto">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+
+                                
+                              </div>
+                      </div>
+                  </div>
+</div>
+<div class="col-md-3">
+      <div class="card mb-3 color-DD4224 bg-white">
+              <div class="custom-col">
+                      <div class="heading">
+                            <p>{{girdDataObj.Minutes}}</p>
+                             <h6>Minutes</h6>
+                             
+                          </div>
+
+                          <div class="sub-heading ml-auto">
+                          <i class="fa fa-clock-o" aria-hidden="true"></i>
+
+                          
+                        </div>
+                </div>
+          </div>
+</div>
+<div class="col-md-3">
+      <div class="card mb-3 color-0093FA bg-white">
+              <div class="custom-col">
+                      <div class="heading">
+                            <p>{{girdDataObj.totalTweets}}</p>
+                             <h6>Total Tweets</h6>
+                             
+                          </div>
+
+                          <div class="sub-heading ml-auto">
+                                  <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+                          
+                        </div>
+                </div>
+          </div>
+</div>
+<div class="col-md-3">
+      <div class="card mb-3 color-4F86F7 bg-white">
+              <div class="custom-col">
+                      <div class="heading">
+                            <p>{{girdDataObj.Tweets_per_Seconds}}</p>
+                             <h6>Tweets per Seconds</h6>
+                             
+                          </div>
+
+                          <div class="sub-heading ml-auto">
+                                  <i class="fa fa-twitter" aria-hidden="true"></i>
+
+                          
+                        </div>
+                </div>
+          </div>
+</div>
+</div>
+<div class="row">
+      <div class="col-md-3">
+              <div class="card mb-3 color-722BB3 bg-white">
+                      <div class="custom-col">
+                              <div class="heading">
+                                <p>{{girdDataObj.Tweets_per_Minutes}}</p>
+                                     <h6>Tweets per Minutes</h6>
+                                     
+                                  </div>
+
+                                  <div class="sub-heading ml-auto">
+                                          <i class="fa fa-twitter" aria-hidden="true"></i>
+
+                                  
+                                </div>
+                        </div>
+                  </div>
+</div>
+<div class="col-md-3">
+      <div class="card mb-3 color-C011D7 bg-white">
+              <div class="custom-col">
+                      <div class="heading">
+                            <p>{{girdDataObj.urls}} / <span>{{urlPercentage}} %</span></p>
+                             <h6>Urls</h6>
+                             
+                          </div>
+
+                          <div class="sub-heading ml-auto">
+                                  <i class="fa fa-link" aria-hidden="true"></i>
+                                  <!-- <i class="fa fa-external-link" aria-hidden="true"></i> -->
+
+
+                          
+                        </div>
+                </div>
+          </div>
+</div>
+<div class="col-md-3">
+      <div class="card mb-3 color-A24B68 bg-white">
+              <div class="custom-col">
+                      <div class="heading">
+                        <p>{{girdDataObj.hashtags}} / <span>{{hashTagPercentage}} %</span></p>
+                             <h6>Hashtags</h6>
+                             
+                          </div>
+
+                          <div class="sub-heading ml-auto">
+                                  <i class="fa fa-hashtag" aria-hidden="true"></i>
+
+
+                          
+                        </div>
+                </div>
+          </div>
+</div>
+<div class="col-md-3">
+      <div class="card mb-3 color-DD9412 bg-white">
+              <div class="custom-col">
+                      <div class="heading">
+                        <p>{{girdDataObj.emojis}} / <span>{{emojiPercentage}} %</span></p>
+                             <h6>Emojis</h6>
+                             
+                          </div>
+
+                          <div class="sub-heading ml-auto">
+                                  <i class="fa fa-smile-o" aria-hidden="true"></i>
+                       </div>
+                </div>
+          </div>
+</div>
+</div>
+<div class="row">
+      <div class="col-md-3">
+              <div class="card mb-3 color-507F01 bg-white">
+                      <div class="custom-col">
+                              <div class="heading">
+                                <p>{{girdDataObj.pics}} / <span>{{picsPercentage}} %</span></p>
+                                     <h6>Pics</h6>
+                                     
+                                  </div>
+
+                                  <div class="sub-heading ml-auto">
+                                          <i class="fa fa-picture-o" aria-hidden="true"></i>
+
+
+                                  
+                                </div>
+                        </div>
+                  </div>
+</div>
+<div class="col-md-3">
+      <div class="card mb-3 color-6D3368 bg-white">
+              <div class="custom-col">
+                      <div class="heading">
+                          <p>{{topUrlObj.URL}}</p>
+                          <p>{{topUrlObj.Count}}</p>
+                             <h6>Top Urls</h6>
+                             
+                          </div>
+
+                          <div class="sub-heading ml-auto">
+                                  <i class="fa fa-link" aria-hidden="true"></i>
+
+                          
+                        </div>
+                </div>
+          </div>
+</div>
+<div class="col-md-3">
+      <div class="card mb-3 color-71553E bg-white">
+              <div class="custom-col">
+                      <div class="heading">
+                          <p>{{topHashTagObj.HashTag}}</p>
+                          <p>{{topHashTagObj.Count}}</p>
+                             <h6>Top Hashtags</h6>
+                             
+                          </div>
+
+                          <div class="sub-heading ml-auto">
+                                  <i class="fa fa-hashtag" aria-hidden="true"></i>
+
+                          
+                        </div>
+                </div>
+          </div>
+</div>
+<div class="col-md-3">
+      <div class="card mb-3 color-E36C14 bg-white">
+              <div class="custom-col">
+                      <div class="heading">
+                          <p>{{topEmojiObj.Emoji}}</p>
+                          <p>{{topEmojiObj.Count}}</p>
+                             <h6>Top Emojis</h6>
+                             
+                          </div>
+
+                          <div class="sub-heading ml-auto">
+                                  <i class="fa fa-smile-o" aria-hidden="true"></i>
+
+                          
+                        </div>
+                </div>
+          </div>
+</div>
+</div>
+</div>
+</section>

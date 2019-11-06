@@ -1,0 +1,22 @@
+{
+  "name": "twit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "emoji-regex": "^8.0.0",
+    "express": "^4.17.1",
+    "find-hashtags": "^1.0.1",
+    "get-urls": "^9.2.0",
+    "moment": "^2.24.0",
+    "node-tweet-stream": "^2.0.3",
+    "twitter": "^1.7.1",
+    "universal-emoji-parser": "^0.5.22"
+  }
+}
